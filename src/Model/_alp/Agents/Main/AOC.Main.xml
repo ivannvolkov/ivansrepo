@@ -46,7 +46,7 @@
 			<Code><![CDATA[1.0]]></Code>
 			<Unit Class="TimeUnits">SECOND</Unit>
 		</StepDurationCode>
-		<SpaceType>CONTINUOUS</SpaceType>
+		<SpaceType>GIS</SpaceType>
 		<WidthCode>500</WidthCode>
 		<HeightCode>500</HeightCode>
 		<ZHeightCode>0</ZHeightCode>
@@ -119,5 +119,6 @@
 			<LineArrowPosition>END</LineArrowPosition>
 		</AgentLink>
 	</AgentLinks>
+	<EmbeddedObjects xmlns:al="http://anylogic.com"/>
 	<Presentation/>
 </ActiveObjectClass>
