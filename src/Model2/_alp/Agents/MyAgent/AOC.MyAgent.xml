@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActiveObjectClass>
-	<Id>1706877982063</Id>
-	<Name><![CDATA[Main]]></Name>
+	<Id>1706878308562</Id>
+	<Name><![CDATA[MyAgent]]></Name>
 	<Generic>false</Generic>
 	<GenericParameter>
-		<Id>1706877982069</Id>
-		<Name><![CDATA[1706877982069]]></Name>
+		<Id>1706878308568</Id>
+		<Name><![CDATA[1706878308568]]></Name>
 		<GenericParameterValue Class="CodeValue">
 			<Code><![CDATA[T extends Agent]]></Code>
 		</GenericParameterValue>
@@ -76,7 +76,7 @@
 		</RecurrenceCode>
 	</DatasetsCreationProperties>
 	<ScaleRuler>
-		<Id>1706877982066</Id>
+		<Id>1706878308565</Id>
 		<Name><![CDATA[scale]]></Name>
 		<X>0</X>
 		<Y>-150</Y>
@@ -92,11 +92,11 @@
 		<Scale>10</Scale>
 		<InheritedFromParentAgentType>true</InheritedFromParentAgentType>
 	</ScaleRuler>
-	<CurrentLevel>1706877982070</CurrentLevel>
-	<ConnectionsId>1706877982064</ConnectionsId>
+	<CurrentLevel>1706878308569</CurrentLevel>
+	<ConnectionsId>1706878308563</ConnectionsId>
 	<AgentLinks>
 		<AgentLink>
-			<Id>1706877982064</Id>
+			<Id>1706878308563</Id>
 			<Name><![CDATA[connections]]></Name>
 			<X>50</X>
 			<Y>-50</Y>
@@ -119,30 +119,24 @@
 			<LineArrowPosition>END</LineArrowPosition>
 		</AgentLink>
 	</AgentLinks>
-	<EmbeddedObjects xmlns:al="http://anylogic.com"/>
-	<Presentation>
-		<EmbeddedObjectPresentation>
-			<Id>1706878308575</Id>
-			<Name><![CDATA[myAgent_presentation]]></Name>
-			<X>130</X>
-			<Y>200</Y>
+	<ContainerLinks>
+		<ContainerLink>
+			<Id>1706878308576</Id>
+			<Name><![CDATA[main]]></Name>
+			<X>50</X>
+			<Y>-100</Y>
 			<Label>
 				<X>10</X>
 				<Y>0</Y>
 			</Label>
-			<PublicFlag>true</PublicFlag>
+			<PublicFlag>false</PublicFlag>
 			<PresentationFlag>true</PresentationFlag>
-			<ShowLabel>false</ShowLabel>
-			<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-			<EmbeddedIcon>false</EmbeddedIcon>
-			<Z>0</Z>
-			<Rotation>0.0</Rotation>
-			<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
-			<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-			<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-			<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-			<Latitude>0.0</Latitude>
-			<Longitude>0.0</Longitude>
-		</EmbeddedObjectPresentation>
-	</Presentation>
+			<ShowLabel>true</ShowLabel>
+			<ActiveObjectClass>
+				<PackageName>model2</PackageName>
+				<ClassName>Main</ClassName>
+			</ActiveObjectClass>
+		</ContainerLink>
+	</ContainerLinks>
+	<Presentation/>
 </ActiveObjectClass>
